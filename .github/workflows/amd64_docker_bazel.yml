@@ -2,10 +2,10 @@
 name: amd64 Docker Bazel
 
 on:
-  push:
-    branches:
-      - main
-      - v99bugfix
+  # push:
+  #   branches:
+  #     - main
+  #     - v99bugfix
   workflow_dispatch:
 
 concurrency:
